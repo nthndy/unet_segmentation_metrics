@@ -46,4 +46,4 @@ def plot_metrics(seg_metrics):
         r = patches.Rectangle((sx.start,sy.start), w, h, edgecolor='c', facecolor=(0.,1.,1.,0.0), linewidth=2)
         ax.add_patch(r)
     plt.axis('off')
-    plt.show()
+    #plt.show()
